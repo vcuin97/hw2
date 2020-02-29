@@ -104,7 +104,7 @@
                        $("#optionsOpen").html("Your a Perciever");
                     }
                     
-                    
+                    //
                     /*
                     //question6
                     if(q6Response == "dover"){
