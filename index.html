@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Personality Test </title>
+
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+        crossorigin="anonymous">
+        
+        <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" ></script> 
+
+       <script SRC="js/functions.js"></script>
+        
+        
+        
+    </head>
+    <body class="text-center">
+        <h1 class = "jumbotron"> Personality Test </h1>
+        
+        <h3><span id="markImg1"></span> Hey! Please enter your name</h3>
+        <input type="text" id="q1">
+        <br><br>
+        <div id ="q1Feedback"></div>
+        <br><br>
+        
+        
+        <h3><span id= "markImg2"></span>Would you rather stay in on a saturday night or go out?</h3>
+        <select id ="q2">
+            <option value="">Select One</option>
+            <option value="in">Stay in</option>
+            <option value="out">Go out</option>
+            
+        </select>
+        <br><br>
+        <div id="q2Feedback"></div>
+        <br>
+        
+       <h3><span id= "markImg3"></span>Do you go with your gut feeling or do you tend to think things through?</h3>
+        <select id ="q3">
+            <option value="">Select One</option>
+            <option value="gut">Gut Feeling</option>
+            <option value="think">Think things through</option>
+            
+        </select>
+        <br><br>
+        <div id ="q3Feedback"></div>
+        <br>
+        
+        <h3><span id= "markImg4"></span>Do you tend to see the big picture or do you pay attention to the small details?</h3>
+        <select id ="q4">
+            <option value="">Select One</option>
+            <option value="bigPicture">Big Picture</option>
+            <option value="smallDetails">Small details</option>
+            
+        </select>
+        <br><br>
+        
+        <h3><span id= "markImg5"></span>Do you stick with your plans or keep your options open?</h3>
+        <select id ="q5">
+            <option value="">Select One</option>
+            <option value="stickToPlans">Stick to Plans</option>
+            <option value="optionsOpen">Keep my options open</option>
+            
+        </select>
+        <br><br>
+        <div id="q5Feedback"></div>
+        <br>
+        
+         
+        
+        
+        
+        
+        
+        
+        <h3 id="validationFdbk" class="bg-danger text-white"></h3>
+        <button class = "btn btn-outline-success"> Submit Quiz </button>
+        <br>
+        
+        <h2 id="totalScore"></h2>
+        <h2 id="congrats"></h2>
+        <h2 id="introvert"></h2>
+        <h2 id="extrovert"></h2>
+        <h2 id="think"></h2>
+        <h2 id="gut"></h2>
+        <h2 id="bigPicture"></h2>
+        <h2 id="smallDetails"></h2>
+        <h2 id="stickToPlans"></h2>
+        <h2 id="optionsOpen"></h2>
+        
+        
+        <h3 id="totalAttempts"></h3>
+        
+    
+        
+        
+        
+    </body>
+</html>
